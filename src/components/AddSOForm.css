@@ -1,0 +1,39 @@
+.AddSOForm {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddSOForm input {
+  margin-bottom: 10px;
+  background-color: #eee;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+
+.AddSOForm input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #eee inset !important;
+}
+input:autofill {
+  background-color: #eee;
+}
+
+.AddSOForm button {
+  margin: 10px 0;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.AddSOForm button:hover {
+  background-color: green;
+}

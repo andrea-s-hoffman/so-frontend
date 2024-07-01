@@ -1,0 +1,53 @@
+.ShoutoutRow {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ShoutoutRow .to {
+  font-weight: bolder;
+}
+
+.ShoutoutRow .from-info {
+  display: flex;
+  align-items: center;
+}
+
+.ShoutoutRow .user-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 5px;
+}
+
+.ShoutoutRow .shoutout-img {
+  width: 300px;
+}
+
+.ShoutoutRow .message {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.ShoutoutRow .fa-trash {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ShoutoutRow .fa-trash:hover {
+  background-color: red;
+}
